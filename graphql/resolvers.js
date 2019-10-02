@@ -1,7 +1,14 @@
+const person = {
+  name: "jiho",
+  age: 26,
+  gender: "male"
+};
+
 const resolvers = {
   Query: {
-    name: () => {
-      return "JIHOJIHO";
+    person: () => {
+      //alertive data base
+      return person;
     }
   }
 };
