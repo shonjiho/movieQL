@@ -1,5 +1,5 @@
 {
-  "name": "graphQL",
+  "name": "graph_ql",
   "version": "1.0.0",
   "description": "Movie API with GraphQL",
   "main": "index.js",
