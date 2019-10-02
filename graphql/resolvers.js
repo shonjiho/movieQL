@@ -1,15 +1,9 @@
-const person = {
-  name: "jiho",
-  age: 26,
-  gender: "male"
-};
+import { peoples, getById } from "./db";
 
 const resolvers = {
   Query: {
-    person: () => {
-      //alertive data base
-      return person;
-    }
+    people: () => peoples,
+    person: (_, { id }) => getById(id)
   }
 };
 
