@@ -14,3 +14,9 @@ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 (package.json script에 start설정)
 nodemon --exec babel-node index.js
 Project Start Reference
+
+### for data fetch.
+
+npm install node-fetch
+or
+npm install axios
