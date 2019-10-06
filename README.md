@@ -1,15 +1,16 @@
-GraphQL Sample Project
-Project Start Reference
-https://github.com/prisma-labs/graphql-yoga
+# Graph QL Tutorial
 
-graphql-yoga (likely create-react-app) make easy to develop with GraphQL
+npm install graphql-yoga
 
-yarn global add nodemon // 파일 수정시마다 특정파일을 재시작해주는 Tool.
-yarn add babel-node --dev // Babel ES6 코드 작성
-yarn global add babel-cli -ignore-engines
+## Nodejs ES6 Apply setting
 
-#### What is Babel?
+yarn add global nodemon
+yarn add babel-node --dev
 
-Babel is JavaScript compiler
+.babelrc 에 babel preset 설정!(어떻게 transpile 할지에 대한 정보)
 
 yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
+
+(package.json script에 start설정)
+nodemon --exec babel-node index.js
+Project Start Reference
